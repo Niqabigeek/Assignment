@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <form class="register-form" action="successpage.html">
+
+            <div class="rform">
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="First Name" id="fname">
+                </div>
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="fname">Last Name:</label>
+                    <input type="text" name="Last Name" id="lname" action='required'>
+                </div>
+
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="pname">Phone number:</label>
+                    <input type="number" name="Phone number" id="pnumber">
+                </div>
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="email">Email:</label>
+                    <input type="text" name="Email" placeholder="example@.com" id="email">
+                </div>
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="gender">Gender:</label>
+                    <select name="" id="select">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Prefer not to say</option>
+                    </select>
+                </div>
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="date">Date of birth:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+
+                <div class="input-field" style="display:flex; flex-direction:column;">
+                    <label for="color">Favorite color:</label>
+                    <input type="color" name="color" id="color">
+                </div>
+
+                <div class="btn">
+
+                    <button type="button"><a class="link" href="success.html">REGISTER</a></button>
+
+                </div>
+                <br>
+                <p>Already have an account? <a href="login.html">Login in</a></p>
+
+
+            </div>
+
+
+        </form>
+
+
+    </body>
+</html>
+
