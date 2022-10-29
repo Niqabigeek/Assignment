@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    
+}
+
+header{
+    height: 10vh;
+    background-color: #361C32;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+
+}
+
+#logo{
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-left: 88px;
+}
+
+.nav-links li{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    
+    
+}
+
+li{
+    list-style: none;
+  
+}
+
+.nav-links a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.3 ease;
+   
+}
+
+a:hover{
+    
+    color: #796876;
+    cursor: pointer;
+    text-decoration: 3px solid underline #A14A62;
+    text-underline-offset: 8px;
+    transition: 0.9s ease-out;
+}
+
+
+.hero{
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+}
+
+#hero-heading{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #333;
+    font-size: 24px;
+}
+
+#sub-heading{
+   color: #333;
+   letter-spacing: 1px;
+   font-weight: 400;
+}
+
+
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.btn-btn{
+    margin-top: 2rem;
+    
+}
+
+.secondary-btn{
+    color: #361C32;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 2px solid #361C32;
+    border-radius: 4px;
+    padding: 14px 40px;
+    font-weight: 500;
+    font-family: 'poppins' sans-serif;
+    text-decoration: none;
+}
+
+.primary-btn{
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: #361C32;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 40px;
+    font-weight: 500;
+    font-family: 'poppins' sans-serif;
+    text-decoration: none;
+    margin-left: 0.4rem;
+}
+
+.primary-btn:hover{
+    background-color: #a14a63;
+    border: 2px solid #a14a63;
+    
+
+}
+
+.secondary-btn:hover{
+   
+  background-color: #796876;
+  border: 2px solid #796876;
+  color: white;
+    
+}
+
+.about-page{
+    height: 90vh;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.about-page-s{
+    margin: 8%;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 2rem;
+    color: #10030e;
+}
+
+
+
+#about-p{
+    font-size: 24px;
+    color: rgb(89, 87, 87);
+    line-height: 140%;
+    font-weight: 300;
+}
+
+.service-page{
+    height: 90vh;
+    text-align: center;
+    padding-top: 4rem;
+    background-color: beige;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    border: 1px so1pxlid #361c32bb;
+    box-shadow: 0 7px 20px rgba(187, 101, 194, 0.35)!important;
+    border-radius: 8px;
+    margin: 24px;
+    display: block;
+    padding-top: 7rem;
+    cursor: pointer;
+    
+}
+
+.card:hover{
+    background-color: #eeeaeec4;
+}
+
+#card{
+   
+    height: 350px;
+}
+
+.s-footer{
+    height: 10vh;
+    background-color: #361C32;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.project-page{
+    height: 100vh;
+}
+
+#project-copy{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 5rem;
+    
+}
+
+.table{
+   margin-left: 15rem;
+   margin-top: 6rem;
+ 
+}
+.tb{
+    margin-left: 18rem;
+   
+}
+
+td{
+    font-size: 19px;
+}
+
+
+#t-head{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    font-size: 24px;
+}
+
+.social__links i{
+    margin-top: 1rem;
+    color: #361C32;
+    font-size: 24px;
+    padding: 6px;
+    
+}
+
+.social__links a{
+    text-decoration: none;
+}
+
+
+i:hover {
+
+    color: #a14a63;
+    cursor: pointer;
+    transition: 0.9s ease-out;
+}
+
+.skills{
+    height: 20vh;
+}
+
+.skills__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__icon i{
+    padding: 8px;
+    color: #361C32;
+    font-size: 28px;
+}
